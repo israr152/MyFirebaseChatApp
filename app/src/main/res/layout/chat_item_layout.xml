@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvTextReceive"
+        android:text="SENDER"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/white"
+        android:background="@drawable/sender_text_background"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvTextSend"
+        android:text="SENDER"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/white"
+        android:background="@drawable/receive_text_background"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
